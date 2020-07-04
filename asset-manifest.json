@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.35e5f6cc.chunk.css",
-    "main.js": "/static/js/main.d0bc99e5.chunk.js",
+    "main.js": "/static/js/main.57e092f8.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.3932c65a.js",
     "static/css/2.143f9196.chunk.css": "/static/css/2.143f9196.chunk.css",
     "static/js/2.d0eab49c.chunk.js": "/static/js/2.d0eab49c.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.b77aa701554011e692631335652ef2d2.js": "/precache-manifest.b77aa701554011e692631335652ef2d2.js",
+    "precache-manifest.8bf89996f700701568c0a3b00ab215c6.js": "/precache-manifest.8bf89996f700701568c0a3b00ab215c6.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.d0eab49c.chunk.js.LICENSE.txt": "/static/js/2.d0eab49c.chunk.js.LICENSE.txt",
     "static/media/Discord.svg": "/static/media/Discord.5078f3d4.svg",
@@ -18,6 +18,6 @@
     "static/css/2.143f9196.chunk.css",
     "static/js/2.d0eab49c.chunk.js",
     "static/css/main.35e5f6cc.chunk.css",
-    "static/js/main.d0bc99e5.chunk.js"
+    "static/js/main.57e092f8.chunk.js"
   ]
 }
