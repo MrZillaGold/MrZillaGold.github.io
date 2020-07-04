@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:regular,bold,italic,bolditalic");
+
+.Group-Title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#root {
+    user-select: none;
+    user-focus: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+span {
+    line-height: normal !important;
+}
+
+img {
+    pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

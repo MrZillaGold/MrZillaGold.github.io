@@ -1,0 +1,9 @@
+.List {
+    font-size: 20px;
+    align-items: center;
+}
+
+ul {
+    padding: 0 0 0 20px;
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35e5f6cc.chunk.css",
+    "main.js": "/static/js/main.c90a3c64.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.3932c65a.js",
+    "static/css/2.143f9196.chunk.css": "/static/css/2.143f9196.chunk.css",
+    "static/js/2.d0eab49c.chunk.js": "/static/js/2.d0eab49c.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.d8d3cc729e2813ade10f9b81bfe97855.js": "/precache-manifest.d8d3cc729e2813ade10f9b81bfe97855.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.d0eab49c.chunk.js.LICENSE.txt": "/static/js/2.d0eab49c.chunk.js.LICENSE.txt",
+    "static/media/Discord.svg": "/static/media/Discord.5078f3d4.svg",
+    "static/media/Github.svg": "/static/media/Github.418f0798.svg",
+    "static/media/VK.svg": "/static/media/VK.8d4b529c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3932c65a.js",
+    "static/css/2.143f9196.chunk.css",
+    "static/js/2.d0eab49c.chunk.js",
+    "static/css/main.35e5f6cc.chunk.css",
+    "static/js/main.c90a3c64.chunk.js"
+  ]
+}

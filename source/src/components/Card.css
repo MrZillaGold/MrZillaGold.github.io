@@ -1,0 +1,14 @@
+.Card {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px);
+    box-shadow: 0 0 0 1px rgba(20,20,31,.05), 0 1px 3px 0 rgba(20,20,31,.15);
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.Card-Header {
+    text-align: center;
+}
+
+.Card-Header_horizontal {
+    margin: 5px 0;
+}

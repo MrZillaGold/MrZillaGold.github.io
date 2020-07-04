@@ -1,0 +1,36 @@
+.Projects {
+    display: grid;
+    grid-gap: 12px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 601px) {
+    .Projects {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 795px) {
+    .Projects {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.Project {
+    align-items: center;
+}
+
+.Project-Description {
+    margin-left: 15px;
+}
+
+.Project-Link_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Project-Avatar {
+    background-color: #eee;
+}
