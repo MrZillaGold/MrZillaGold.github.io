@@ -29,7 +29,7 @@ export function Minecraft() {
             })
             .catch(console.log);
 
-        axios.get("https://api.slothpixel.me/api/players/MrZillaGold")
+        axios.get("https://stevecors.herokuapp.com/https://api.slothpixel.me/api/players/MrZillaGold")
             .then(response => setHypixel(response.data))
             .catch(() => setHypixel("error"));
     })
