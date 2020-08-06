@@ -2,10 +2,10 @@ import React from "react";
 
 import "./Card.css";
 
-export function Card({ children, header, className = "", onDoubleClick = () => null }) {
+export function Card({ children, header, className = "", ...props }) {
     return (
       <div className={`Card ${className}`}
-           onDoubleClick={onDoubleClick}
+           {...props}
       >
           {
               header ?

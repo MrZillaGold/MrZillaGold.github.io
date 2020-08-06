@@ -1,0 +1,40 @@
+.Friends {
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+}
+
+.Friends-Container {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.Friends-Container:hover {
+    animation-play-state: paused;
+}
+
+.Friend {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.Friend-Name {
+    margin: 0 20px 0 0;
+}
+
+.Friend-Head {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translate(100%, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

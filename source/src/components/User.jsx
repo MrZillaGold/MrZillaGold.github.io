@@ -4,17 +4,15 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { Media, Image } from "react-bootstrap";
 
-import { VK, Github } from "../icons/icons";
-
 import "./User.css";
 
 const links = [
     {
-        badge: VK,
+        badge: "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/VK.svg",
         link: "https://vk.com/id233731786"
     },
     {
-        badge: Github,
+        badge: "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Github.svg",
         link: "https://github.com/MrZillaGold"
     }
 ];
@@ -23,7 +21,7 @@ export function User() {
     const [avatar, setAvatar] = useState(null);
 
     useEffect(() => {
-        axios.get("https://cors-anywhere.herokuapp.com/https://m.vk.com/mrzillagold")
+        axios.get("https://stevecors.herokuapp.com/https://m.vk.com/mrzillagold")
             .then(({ data }) => {
                 const parse = /<\s*img src="([^]+?)" class="pp_img" alt="[^]+?" style="[^]+?"[^>]*>/.exec(data);
 
@@ -43,16 +41,16 @@ export function User() {
         <Media className="User">
             {
                 avatar ?
-                    <Image
-                        className="Avatar"
-                        roundedCircle
-                        width={100}
-                        height={100}
-                        src={avatar}
-                        alt="Пронин Егор"
+                    <Image roundedCircle
+                           className="Avatar"
+                           width={100}
+                           height={100}
+                           src={avatar}
+                           alt="Пронин Егор"
                     />
                     :
                     <Skeleton width={100}
+                              className="Avatar"
                               height={100}
                               circle={true}
                     />
