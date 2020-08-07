@@ -6,7 +6,7 @@
 
 .Friends-Container {
     display: flex;
-    animation: marquee 20s linear infinite;
+    animation: marquee 25s linear infinite;
 }
 
 .Friends-Container:hover {
@@ -17,10 +17,7 @@
     display: flex;
     color: black;
     text-decoration: none;
-}
-
-.Friend-Name {
-    margin: 0 20px 0 0;
+    padding: 6px 10px 0 10px;
 }
 
 .Friend-Head {

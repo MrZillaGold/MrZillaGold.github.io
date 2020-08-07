@@ -14,7 +14,7 @@ const skills = [
 
 export function Skills() {
     return (
-        <div style={{ padding: "0 1em 1em 1em" }}>
+        <div style={{ padding: "0 1em 3em 1em" }}>
             <h3 className="Group-Title">Знаю</h3>
             <Card className="List">
                 <ul>

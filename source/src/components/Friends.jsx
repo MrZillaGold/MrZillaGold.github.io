@@ -36,7 +36,7 @@ export function Friends() {
                                            href={`https://vk.com/id${vk}`}
                                            rel="noopener noreferrer"
                                         >
-                                            <img src={`https://api.ashcon.app/mojang/v2/avatar/${username}`}
+                                            <img src={`https://api.ashcon.app/mojang/v2/avatar/${uuid}`}
                                                  className="Friend-Head"
                                                  alt=""
                                             />

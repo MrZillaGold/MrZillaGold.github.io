@@ -22,7 +22,7 @@ export function Projects() {
     return (
         <div style={{ padding: "0 1em 1em 1em" }}>
             <h3 className="Group-Title">
-                Пишу проекты
+                Пишу
             </h3>
             <div className="Projects" style={projects === "error" ? { display: "block" } : {} }>
                 {
