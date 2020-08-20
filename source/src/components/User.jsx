@@ -28,10 +28,7 @@ export function User() {
                 if (parse) {
                     const [, avatar] = parse;
 
-                   setAvatar(
-                       avatar.replace("size=100x0", "size=500x0")
-                           .replace("quality=90", "quality=100")
-                   );
+                   setAvatar(avatar);
                 } else {
                     setAvatar("https://sun6-16.userapi.com/ida8trPMuQhzg2BlWVAuE5IgCWDFs_XnbHrXOQ/NOaBSIIxjLw.jpg?ava=1");
                 }
