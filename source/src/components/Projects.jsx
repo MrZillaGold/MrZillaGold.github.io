@@ -30,7 +30,6 @@ export function Projects() {
                         projects !== "error" ?
                             projects.map((project, index) =>
                                 <ProjectCard key={index}
-                                             className="Project-Animation"
                                              {...project}
                                 />
                             )
