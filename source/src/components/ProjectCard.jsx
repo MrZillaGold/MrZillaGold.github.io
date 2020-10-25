@@ -5,7 +5,7 @@ import { Card } from "./Card";
 
 import "./ProjectCard.css";
 
-export function ProjectCard({ avatar = "", title = "", description = "", links = null, ...props }) {
+export function ProjectCard({ avatar = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", title = "", description = "", links = null, ...props }) {
     return (
         <Card header={title}
               className="Project"
