@@ -48,6 +48,17 @@
     ]
   },
   {
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/vk-io-pages.png",
+    "title": "vk-io-pages",
+    "description": "Модуль vk-io для создания динамических страниц",
+    "links": [
+      {
+        "badge": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Github.svg",
+        "link": "https://github.com/MrZillaGold/vk-io-pages"
+      }
+    ]
+  },
+  {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/VK.png",
     "title": "RconVK",
     "description": "Бот для удалённого управления сервером через Rcon для ВКонтакте",

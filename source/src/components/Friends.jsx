@@ -21,7 +21,7 @@ export function Friends() {
     return (
         <div style={{ padding: "0 3em 3em 3em" }}>
             <h3 className="Group-Title">
-                Дружу
+                Спасибо ❤️
             </h3>
                 {
                     friends !== "error" ?
