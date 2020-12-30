@@ -1,0 +1,94 @@
+.Group-Title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-Icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.Card {
+    overflow: hidden;
+}
+
+.CardGrid {
+    align-items: normal !important;
+    justify-content: normal !important;
+}
+
+.Header {
+    user-select: none !important;
+}
+
+div#root {
+    user-select: none;
+    user-focus: none;
+    font-family: Whitney, sans-serif;
+}
+
+.body {
+    margin: 0;
+}
+
+img {
+    pointer-events: none;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h1.Title {
+    text-align: left;
+}
+
+:root {
+    --font-tt: Whitney, -apple-system, system-ui, Helvetica Neue, Roboto, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./assets/fonts/Whitney-Black.ttf");
+}
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./assets/fonts/Whitney-Bold.ttf");
+}
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./assets/fonts/Whitney-Bold.ttf");
+}
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./assets/fonts/Whitney-Semibold.ttf");
+}
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./assets/fonts/Whitney-Medium.ttf");
+}

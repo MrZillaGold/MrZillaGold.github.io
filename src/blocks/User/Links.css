@@ -1,0 +1,12 @@
+.Links {
+    padding: 20px;
+    display: flex;
+}
+
+.Link-Button {
+    margin-right: 10px !important;
+    cursor: unset !important;
+    border-radius: 26px !important;
+    padding: 11px !important;
+    height: 52px !important;
+}

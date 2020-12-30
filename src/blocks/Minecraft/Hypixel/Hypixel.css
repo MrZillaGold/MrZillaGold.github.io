@@ -1,0 +1,26 @@
+.Hypixel {
+    padding: 0 !important;
+    height: 450px;
+}
+
+
+.Info-List {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Mode {
+    height: 0;
+    transition: height 0.5s;
+}
+
+#hypixel-group,
+#hypixel-group > .Group__inner,
+#hypixel-card > .Card__in {
+    height: 100%;
+}
+
+#hypixel-group > .Group__inner {
+    height: calc(100% - 16px);
+}
