@@ -11,7 +11,7 @@ export function Projects() {
     const { viewWidth } = useAdaptivity();
 
     useEffect(() => {
-        axios.get("https://stevecors.herokuapp.com/https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/source/projects.json")
+        axios.get("https://stevecors.herokuapp.com/https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/projects.json")
             .then(({ data }) => setProjects(data))
             .catch(() => setProjects("error"));
     }, []);

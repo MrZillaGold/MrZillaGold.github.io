@@ -11,7 +11,7 @@ export function Friends() {
     const [friends, setFriends] = useState(null);
 
     useEffect(() => {
-        axios.get("https://stevecors.herokuapp.com/https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/source/friends.json")
+        axios.get("https://stevecors.herokuapp.com/https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/friends.json")
             .then(({ data }) => setFriends(data))
             .catch(() => setFriends("error"));
     }, []);
