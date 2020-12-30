@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, useAdaptivity, ViewWidth, Div } from "@vkontakte/vkui";
+import { Card, Div } from "@vkontakte/vkui";
 
 import "./Skills.css";
 
@@ -13,10 +13,8 @@ const skills = [
 
 export function Skills() {
 
-    const { viewWidth } = useAdaptivity();
-
     return (
-        <div style={{ padding: viewWidth <= ViewWidth.MOBILE ? 12 : "0 48px" }}>
+        <div>
             <h1>
                 Знаю
             </h1>

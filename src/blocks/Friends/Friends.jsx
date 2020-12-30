@@ -1,12 +1,10 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Avatar, Card, SimpleCell, Spinner, useAdaptivity, ViewWidth, Headline } from "@vkontakte/vkui";
+import { Avatar, Card, SimpleCell, Spinner,Headline } from "@vkontakte/vkui";
 
 import "./Friends.css";
 
 export function Friends() {
-
-    const { viewWidth } = useAdaptivity();
 
     const [friends, setFriends] = useState(null);
 
@@ -17,7 +15,7 @@ export function Friends() {
     }, []);
 
     return (
-        <div style={{ padding: viewWidth <= ViewWidth.MOBILE ? 12 : "0 48px" }}>
+        <div>
             <h1>
                 Спасибо ❤️
             </h1>

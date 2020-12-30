@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ConfigProvider, Panel, AdaptivityProvider, AppRoot } from "@vkontakte/vkui";
+import { ConfigProvider, Panel, AdaptivityProvider, AppRoot, useAdaptivity, ViewWidth } from "@vkontakte/vkui";
 
 import { SchemeContext, schemes } from "./hooks/hooks";
 
@@ -11,6 +11,8 @@ import { Friends } from "./blocks/Friends/Friends";
 import { Footer } from "./blocks/Footer/Footer";
 
 export function App() {
+
+    const { viewWidth } = useAdaptivity();
 
     const getStorageScheme = () => {
         const storageScheme = localStorage.getItem("scheme");
@@ -45,12 +47,14 @@ export function App() {
                 <AdaptivityProvider>
                     <AppRoot>
                         <Panel id="main">
-                            <User/>
-                            <Minecraft/>
-                            <Projects/>
-                            <Skills/>
-                            <Friends/>
-                            <Footer/>
+                            <div style={{ padding: viewWidth > ViewWidth.MOBILE ? "0 48px" : 12 }}>
+                                <User/>
+                                <Minecraft/>
+                                <Projects/>
+                                <Skills/>
+                                <Friends/>
+                                <Footer/>
+                            </div>
                         </Panel>
                     </AppRoot>
                 </AdaptivityProvider>

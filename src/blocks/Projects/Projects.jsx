@@ -17,7 +17,7 @@ export function Projects() {
     }, []);
 
     return (
-        <div style={{ padding: viewWidth <= ViewWidth.MOBILE ? 12 : "0 48px" }}>
+        <div>
             <h1>
                 Пишу
             </h1>
