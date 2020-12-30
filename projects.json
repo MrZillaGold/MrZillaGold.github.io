@@ -1,6 +1,6 @@
 [
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Steve.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Steve.png",
     "title": "Steve - Minecraft Бот",
     "description": "Бот для ВКонтакте и Discord с различными инструментами для упрощения игры Minecraft",
     "links": [
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Steve.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Steve.png",
     "title": "Steve - Minecraft Помощник",
     "description": "Сервис на платформе VKMiniApps с различными инструментами для упрощения игры Minecraft",
     "links": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Discord.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Discord.png",
     "title": "VK2Discord",
     "description": "Автоматическая публикация записей из группы или профиля ВКонтакте в канал Discord",
     "links": [
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/NameMC.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/NameMC.png",
     "title": "NameMCWrapper",
     "description": "ES6 библиотека для получения данных с сайта NameMC.com",
     "links": [
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/vk-io-pages.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/vk-io-pages.png",
     "title": "vk-io-pages",
     "description": "Модуль vk-io для создания динамических страниц",
     "links": [
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/Discord.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Discord.png",
     "title": "discord.js-pages",
     "description": "Модуль discord.js для создания динамических страниц",
     "links": [
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/VK.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/VK.png",
     "title": "RconVK",
     "description": "Бот для удалённого управления сервером через Rcon для ВКонтакте",
     "links": [
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/source/src/assets/VimeWorld.png",
+    "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/VimeWorld.png",
     "title": "VimeWidget",
     "description": "Виджет с информацией о гильдии VimeWorld для группы ВКонтакте",
     "links": [
