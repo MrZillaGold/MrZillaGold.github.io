@@ -1,18 +1,15 @@
-import React, { useContext, useReducer } from "react";
+import React, { useReducer } from "react";
 import { Button, useAdaptivity, ViewWidth } from "@vkontakte/vkui";
 import { Icon28Play, Icon28Pause, Icon28DownloadOutline } from "@vkontakte/icons";
 
 import { SkinViewer } from "./components";
 import { IconRun, IconWalk } from "../icons/icons";
 
-import { SchemeContext } from "../hooks/hooks";
-
 import "./SkinPreview.css";
 
 export function SkinPreview({ skin, cape, isSlim, username = "", ...rest }) {
 
     const { viewWidth } = useAdaptivity();
-    const { scheme } = useContext(SchemeContext);
 
     const [{ paused, walk }, setPreview] = useReducer((currentState, updates) => ({
         ...currentState,
@@ -36,7 +33,7 @@ export function SkinPreview({ skin, cape, isSlim, username = "", ...rest }) {
     };
 
     return (
-        <div className={`SkinPreview SkinPreview-${scheme}`} {...rest}>
+        <div className="SkinPreview" {...rest}>
             <div className="SkinPreview-Buttons"
                  style={{ padding: viewWidth > ViewWidth.MOBILE ? 20 : 10 }}
             >
