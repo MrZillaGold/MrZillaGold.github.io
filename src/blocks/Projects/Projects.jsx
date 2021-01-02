@@ -21,7 +21,9 @@ export function Projects() {
             <h1>
                 Пишу
             </h1>
-            <CardGrid size={projects && projects !== "error" && viewWidth > ViewWidth.MOBILE  ? "m" : "l"}>
+            <CardGrid size={projects && projects !== "error" && viewWidth > ViewWidth.MOBILE  ? "m" : "l"}
+                      style={{ padding: 0 }}
+            >
                 {
                     projects ?
                         projects !== "error" ?

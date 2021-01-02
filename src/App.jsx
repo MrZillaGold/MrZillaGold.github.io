@@ -1,18 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { ConfigProvider, Panel, AdaptivityProvider, AppRoot, useAdaptivity, ViewWidth } from "@vkontakte/vkui";
+import { ConfigProvider, AdaptivityProvider } from "@vkontakte/vkui";
+
+import { Layout } from "./Layout";
 
 import { SchemeContext, schemes } from "./hooks/hooks";
 
-import { User } from "./blocks/User/User.jsx";
-import { Minecraft } from "./blocks/Minecraft/Minecraft.jsx";
-import { Projects } from "./blocks/Projects/Projects.jsx";
-import { Skills } from "./blocks/Skills/Skills";
-import { Friends } from "./blocks/Friends/Friends";
-import { Footer } from "./blocks/Footer/Footer";
-
 export function App() {
-
-    const { viewWidth } = useAdaptivity();
 
     const getStorageScheme = () => {
         const storageScheme = localStorage.getItem("scheme");
@@ -45,18 +38,7 @@ export function App() {
         }}>
             <ConfigProvider scheme={scheme}>
                 <AdaptivityProvider>
-                    <AppRoot>
-                        <Panel id="main">
-                            <div style={{ padding: viewWidth > ViewWidth.MOBILE ? "0 48px" : 12 }}>
-                                <User/>
-                                <Minecraft/>
-                                <Projects/>
-                                <Skills/>
-                                <Friends/>
-                                <Footer/>
-                            </div>
-                        </Panel>
-                    </AppRoot>
+                    <Layout/>
                 </AdaptivityProvider>
             </ConfigProvider>
         </SchemeContext.Provider>
