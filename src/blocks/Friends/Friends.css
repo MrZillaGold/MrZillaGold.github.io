@@ -5,6 +5,7 @@
 }
 
 .Friends-Container {
+    position: absolute;
     display: flex;
     animation: marquee 25s linear infinite;
 }

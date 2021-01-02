@@ -26,8 +26,9 @@ export function Friends() {
                 {
                     friends !== "error" ?
                         friends ?
-                            <>
-                                <div className="Friends-Container">
+                            <div className="SimpleCell">
+                                <div className="Friends-Container"
+                                >
                                     {
                                         friends
                                             .sort(() => .5 - Math.random())
@@ -47,7 +48,7 @@ export function Friends() {
                                             )
                                     }
                                 </div>
-                            </>
+                            </div>
                             :
                             <Spinner className="Friends-Loader"/>
                         :
