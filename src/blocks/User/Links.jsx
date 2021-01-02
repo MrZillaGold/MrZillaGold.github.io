@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Button } from "@vkontakte/vkui";
-import { Icon28LogoVkColor, Icon28MoonOutline } from "@vkontakte/icons";
+import { Icon28LogoVkColor, Icon28MoonOutline, Icon28SunOutline } from "@vkontakte/icons";
 
 import { IconGithub } from "../../icons/icons";
 
@@ -10,7 +10,7 @@ import "./Links.css";
 
 export function Links() {
 
-    const { toggleScheme } = useContext(SchemeContext);
+    const { scheme, toggleScheme } = useContext(SchemeContext);
 
     return (
         <div className="Links">
@@ -26,7 +26,10 @@ export function Links() {
                     className="Link-Button"
                     onClick={toggleScheme}
                     before={
-                        <Icon28MoonOutline/>
+                        scheme === "bright_light" ?
+                            <Icon28MoonOutline/>
+                            :
+                            <Icon28SunOutline/>
                     }
             />
             <Button mode="secondary"
