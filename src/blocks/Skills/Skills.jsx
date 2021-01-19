@@ -5,6 +5,7 @@ import "./Skills.css";
 
 const skills = [
     "JavaScript",
+    "TypeScript",
     "NodeJS",
     "React",
     "Как правильно составлять Google запросы",
