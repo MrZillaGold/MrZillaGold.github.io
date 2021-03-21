@@ -94,5 +94,38 @@
         "link": "https://github.com/MrZillaGold/VimeWidget"
       }
     ]
-  }
+  },
+  {
+    "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Minecraft.png",
+    "title": "RawJSONBuilder",
+    "description": "Модуль для сборки Minecraft Raw JSON",
+    "links": [
+      {
+        "badge": "Github",
+        "link": "https://github.com/MrZillaGold/RawJSONBuilder"
+      }
+    ]
+  },
+  {
+    "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Steve.png",
+    "title": "SteveProxy",
+    "description": "Node.js прокси для Minecraft",
+    "links": [
+      {
+        "badge": "Github",
+        "link": "https://github.com/SteveProxy"
+      }
+    ]
+  },
+  {
+    "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Minecraft.png",
+    "title": "PingMC",
+    "description": "Форк модуля для получения информации о серверах Minecraft",
+    "links": [
+      {
+        "badge": "Github",
+        "link": "https://github.com/MrZillaGold/PingMC"
+      }
+    ]
+  },
 ]
