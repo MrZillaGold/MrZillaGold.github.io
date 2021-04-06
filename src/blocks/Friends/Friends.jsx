@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Avatar, Card, SimpleCell, Spinner,Headline } from "@vkontakte/vkui";
+import Emoji from "react-apple-emojis";
 
 import "./Friends.css";
 
@@ -17,7 +18,7 @@ export function Friends() {
     return (
         <div>
             <h1>
-                Спасибо ❤️
+                Спасибо <Emoji name="red-heart" width={32}/>️
             </h1>
             <Card className="Friends"
                   mode="shadow"

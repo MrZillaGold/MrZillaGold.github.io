@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import Emoji from "react-apple-emojis";
 
 import { randomInteger } from "../../functions";
 
 import "./Footer.css";
 
-const emojis = ["❤️", "😭", "✨", "💥"];
+const emojis = ["red-heart", "loudly-crying-face", "sparkles", "collision"];
 
 export function Footer() {
     const getRandomEmoji = () => {
@@ -18,7 +19,7 @@ export function Footer() {
             <p onClick={() => setEmoji(getRandomEmoji())}
                className="Footer-Text"
             >
-                Сделано с { emoji } MrZillaGold
+                Сделано с <Emoji className="Footer-Icon" name={emoji} width={20}/> MrZillaGold
                 <img className="Footer-Icon"
                      src={"https://api.ashcon.app/mojang/v2/avatar/MrZillaGold"}
                      alt=""
