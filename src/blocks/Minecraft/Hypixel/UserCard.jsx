@@ -10,7 +10,7 @@ export function UserCard({ user }) {
                     className="user-avatar"
             />
         }
-              style={{ marginTop: "8px" }}
+              style={{ margin: "8px 0" }}
               description={
                   user.rank_formatted !== "&7" ?
                       user.rank_formatted.replace(/&./g, "")
