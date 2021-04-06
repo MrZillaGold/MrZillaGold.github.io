@@ -26,9 +26,8 @@ export function Friends() {
                 {
                     friends !== "error" ?
                         friends ?
-                            <div className="SimpleCell">
-                                <div className="Friends-Container"
-                                >
+                            <div className="vkuiSimpleCell">
+                                <div className="Friends-Container">
                                     {
                                         friends
                                             .sort(() => .5 - Math.random())

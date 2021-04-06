@@ -1,5 +1,4 @@
 .Friends {
-    overflow: hidden;
     padding: 15px;
     display: flex;
 }
@@ -23,7 +22,7 @@
     min-height: 24px;
 }
 
-#friends-card > .Card__in {
+#friends-card > .vkuiCard__in {
     width: 100%;
     height: 100%;
 }
