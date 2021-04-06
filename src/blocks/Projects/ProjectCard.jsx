@@ -38,6 +38,7 @@ export function ProjectCard({ avatar = "data:image/png;base64,iVBORw0KGgoAAAANSU
                                   <Button before={
                                       icons.get(badge)
                                   }
+                                          key={link}
                                           target="_blank"
                                           href={link}
                                           mode="secondary"
@@ -45,6 +46,7 @@ export function ProjectCard({ avatar = "data:image/png;base64,iVBORw0KGgoAAAANSU
                                   />
                               )
                           }
+                          key={title}
                 >
                     {
                         description || children
