@@ -5,9 +5,21 @@
 
 
 .Info-List {
-    display: flex;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
     justify-content: center;
+}
+
+.Info-List > .vkuiSimpleCell > .vkuiSimpleCell__main {
+    text-align: center;
+}
+
+.Info-List > .vkuiSimpleCell > .vkuiSimpleCell__main > .vkuiSimpleCell__content {
+    display: unset !important;
+}
+
+.Info-Title {
+    text-align: center;
 }
 
 .Mode {
