@@ -57,16 +57,6 @@ export function SkinPreview({ skin, cape, isSlim, username = "", ...rest }) {
                                 <IconWalk/>
                         }
                 />
-                <Button mode="secondary"
-                        className="SkinPreview-Button"
-                        target="_blank"
-                        rel="noreferrer"
-                        href={skin?.replace("https://stevecors.herokuapp.com/", "")}
-                        disabled={!skin}
-                        before={
-                            <Icon28DownloadOutline/>
-                        }
-                />
             </div>
             <div className="SkinPreview-Render">
                 <SkinViewer skin={skin}
