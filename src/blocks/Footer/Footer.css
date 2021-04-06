@@ -1,0 +1,16 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-Text {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-Icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
