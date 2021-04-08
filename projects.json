@@ -3,129 +3,90 @@
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Steve.png",
     "title": "Steve - Minecraft Бот",
     "description": "Бот для ВКонтакте и Discord с различными инструментами для упрощения игры Minecraft",
-    "links": [
-      {
-        "badge": "VK",
-        "link": "https://vk.com/club175914098"
-      },
-      {
-        "badge": "Discord",
-        "link": "https://discord.com/oauth2/authorize?client_id=714391808976617512&permissions=388160&scope=bot"
-      }
-    ]
+    "links": {
+      "vk": "https://vk.com/club175914098",
+      "discord": "https://discord.com/oauth2/authorize?client_id=714391808976617512&permissions=388160&scope=bot"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Steve.png",
     "title": "Steve - Minecraft Помощник",
     "description": "Сервис на платформе VKMiniApps с различными инструментами для упрощения игры Minecraft",
-    "links": [
-      {
-        "badge": "VK",
-        "link": "https://vk.com/app7078246"
-      },
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/Steve-VKMiniApps"
-      }
-    ]
+    "links": {
+      "vk": "https://vk.com/app7078246",
+      "github": "https://github.com/MrZillaGold/Steve-VKMiniApps"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Discord.png",
     "title": "VK2Discord",
     "description": "Автоматическая публикация записей из группы или профиля ВКонтакте в канал Discord",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/VK2Discord"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/VK2Discord"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/NameMC.png",
     "title": "NameMCWrapper",
     "description": "ES6 библиотека для получения данных с сайта NameMC.com",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/NameMCWrapper"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/NameMCWrapper"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/vk-io-pages.png",
     "title": "vk-io-pages",
     "description": "Модуль vk-io для создания динамических страниц",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/vk-io-pages"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/vk-io-pages"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/Discord.png",
     "title": "discord.js-pages",
     "description": "Модуль discord.js для создания динамических страниц",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/discord.js-pages"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/discord.js-pages"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/VK.png",
     "title": "RconVK",
     "description": "Бот для удалённого управления сервером через Rcon для ВКонтакте",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/RconVK"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/RconVK"
+    }
   },
   {
     "avatar": "https://github.com/MrZillaGold/MrZillaGold.github.io/raw/master/src/assets/VimeWorld.png",
     "title": "VimeWidget",
     "description": "Виджет с информацией о гильдии VimeWorld для группы ВКонтакте",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/VimeWidget"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/VimeWidget"
+    }
   },
   {
     "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Minecraft.png",
     "title": "RawJSONBuilder",
     "description": "Модуль для сборки Minecraft Raw JSON",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/RawJSONBuilder"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/RawJSONBuilder"
+    }
   },
   {
     "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Steve.png",
     "title": "SteveProxy",
     "description": "Node.js прокси для Minecraft",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/SteveProxy"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/SteveProxy"
+    }
   },
   {
     "avatar": "https://raw.githubusercontent.com/MrZillaGold/MrZillaGold.github.io/master/src/assets/Minecraft.png",
     "title": "PingMC",
     "description": "Форк модуля для получения информации о серверах Minecraft",
-    "links": [
-      {
-        "badge": "Github",
-        "link": "https://github.com/MrZillaGold/PingMC"
-      }
-    ]
+    "links": {
+      "github": "https://github.com/MrZillaGold/PingMC"
+    }
   }
 ]

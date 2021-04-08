@@ -5,9 +5,9 @@ import { Icon28LogoVkColor } from "@vkontakte/icons";
 import { IconGithub, IconDiscord } from "../../icons/icons";
 
 const icons = new Map([
-    ["Github", <IconGithub/>],
-    ["VK", <Icon28LogoVkColor/>],
-    ["Discord", <IconDiscord/>]
+    ["github", <IconGithub/>],
+    ["vk", <Icon28LogoVkColor/>],
+    ["discord", <IconDiscord/>]
 ]);
 
 export function ProjectCard({ avatar = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", title = "", description = "", links = null, children }) {
@@ -34,7 +34,7 @@ export function ProjectCard({ avatar = "data:image/png;base64,iVBORw0KGgoAAAANSU
                           multiline={true}
                           style={{ padding: 0 }}
                           actions={
-                              links?.map(({ badge, link }) =>
+                              links && Object.entries(links).map(([badge, link]) =>
                                   <Button before={
                                       icons.get(badge)
                                   }
