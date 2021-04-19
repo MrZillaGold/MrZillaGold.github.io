@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.47a384e5.chunk.css",
-    "main.js": "/static/js/main.14f88ebc.chunk.js",
+    "main.js": "/static/js/main.07dcfbe1.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.1625afef.js",
     "static/css/2.de408d13.chunk.css": "/static/css/2.de408d13.chunk.css",
     "static/js/2.265e8c05.chunk.js": "/static/js/2.265e8c05.chunk.js",
     "index.html": "/index.html",
     "static/js/2.265e8c05.chunk.js.LICENSE.txt": "/static/js/2.265e8c05.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Whitney-Semibold.1070fecc.ttf",
-    "static/media/avatar.7275a17f.jpg": "/static/media/avatar.7275a17f.jpg"
+    "static/media/avatar.aa8884cc.jpg": "/static/media/avatar.aa8884cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1625afef.js",
     "static/css/2.de408d13.chunk.css",
     "static/js/2.265e8c05.chunk.js",
     "static/css/main.47a384e5.chunk.css",
-    "static/js/main.14f88ebc.chunk.js"
+    "static/js/main.07dcfbe1.chunk.js"
   ]
 }
